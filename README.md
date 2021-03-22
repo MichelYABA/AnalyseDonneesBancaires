@@ -21,3 +21,7 @@ et le fait que le client quitte ou pas la banque. On fait donc un A/B test sur c
 on doit vérifier qu'il y a la même proportion des clients qui quittent la banque dans chacune des 10 catégories de ce dernier chiffre du Customer ID càd 0 à 9.
 Pour faire ce A/B Test, j'ai commencé par créer la variable donnant ce dernier chiffre du Customer ID. On va donc créer une variable calculée à partir de Customer ID comme suit : Right(str(CustomerID), 1)
 On obtient une distribution(répartition) des données uniformes pour laquelle il y a à peu près la même proportion des clients qui quittent la banque. On constate aussi que cette proportion est proche de 20%. Le fait d'avoir obtenu une distribution uniforme permet donc de valider les données puisqu'elles sont bien homogènes. En revanche si on obtenu un pourcentage très élevé pour l'une des catégories, cela voudrait dire qu'il y a un problème dans les données puisque cela indiquera une anomalie.)
+
+## Liens vers les tableaux publics
+- https://public.tableau.com/views/TableauDeBord_16164240761980/Tableaudebord2?:language=fr&:display_count=y&:origin=viz_share_link
+- https://public.tableau.com/views/TableauDeBord1/Tableaudebord1?:language=fr&:retry=yes&:display_count=y&:origin=viz_share_link
